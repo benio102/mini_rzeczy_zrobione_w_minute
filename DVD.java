@@ -32,7 +32,7 @@ public class DVD extends JPanel {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        JFrame frame = new JFrame("Odbijaj¹ce ko³o");
+        JFrame frame = new JFrame("DVD");
         DVD game = new DVD();
         frame.add(game);
         frame.setSize(300, 200);
